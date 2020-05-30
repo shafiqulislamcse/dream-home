@@ -1,0 +1,179 @@
+/*global css area start*/
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+.container{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+/*global css area end*/
+
+/*header css area start*/
+header{
+	background-color: #fff;
+	padding: 10px 0 20px;
+}
+header .container{
+	overflow: hidden;
+}
+header .brand-name{
+	width: 25%;
+	float: left;
+
+}
+header .brand-name img{
+	width: 100%;
+	display: block;
+}
+header nav{
+	width: 75%;
+	float: left;
+}
+header nav ul{
+	list-style-type: none;
+	text-align: right;
+}
+header nav ul li{
+	display: inline;
+}
+header nav ul li a {
+	font-size: 18px;
+	font-weight: 400;
+	color: #4C5769;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 17px 20px;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+header nav ul li a:hover{
+	color: #3C7ADF;
+}
+
+/*header css area end*/
+
+
+
+/*banner css area start*/
+.banner .container{
+	background-image: url('../images/home.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.banner .banner-content {
+	width: 30%;
+	background-color: rgba(0,0,0,0.5);
+	padding: 25px;
+	margin: 80px 0 150px;
+}
+.banner .banner-content h1 {
+	font-size: 38px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 50px;
+	opacity: 0.8;
+}
+.banner .banner-content p {
+	font-size: 18px;
+	color: #fff;
+	text-transform: capitalize;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.banner .banner-content button {
+	width: 150px;
+	height: 45px;
+	background-color: rgba(0,0,0,0.7);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+.banner .banner-content button:hover{
+	color: rgba(0,0,0,0.6);
+	background-color: #fff;
+}
+/*banner css area end*/
+
+/*service css area start*/
+.services{
+	padding: 80px 0px;
+}
+.services .container{}
+.services .s-wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.services .s-wrapper .single{
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin-right: 5%;
+}
+.services .s-wrapper .single:last-child{
+	margin-right: 0px;
+}
+.services .s-wrapper .single h2 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #BDB8B5;
+	margin-bottom: 5px;
+}
+.services .s-wrapper .single img{
+	width: 100%;
+}
+.services .s-wrapper .single p {
+	font-size: 16px;
+	font-weight: 300;
+	color: #8D8A91;
+	margin: 28px 10px 35px;
+	line-height: 29px;
+}
+.services .s-wrapper .single button {
+	font-size: 16px;
+	font-weight: 300;
+	color: #B8C4DE;
+	background-color: #405A7F;
+	border: none;
+	border-radius: 3px;
+	padding: 5px 20px;
+	cursor: pointer;
+}
+/*service css area end*/
+
+
+/*footer css area start*/
+footer{
+	padding: 20px 0px;
+}
+footer .footer-content{
+	text-align: center;
+}
+footer .footer-content p{
+	font-weight: 300;
+	color: #64707C;
+	margin-bottom: 8px;
+}
+footer .footer-content ul{
+	list-style-type: none;
+	margin-top: 20px;
+}
+footer .footer-content ul li{
+	display: inline-block;
+}
+/*footer css area end*/
